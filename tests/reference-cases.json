@@ -1,0 +1,1466 @@
+[
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.332",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD -104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n-104311404.33269",
+      19
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      25976
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      56
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.667",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n109192578.66730",
+      18
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      60425
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      809
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.499",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.49999",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -1,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      1
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -1,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      1
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.500",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2440587.50000",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      0,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      86400
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      0,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      864
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2451545.00000",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      86400
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      864
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.000",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD 2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "JD\n2461341.00000",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      86400
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      864
+    ]
+  }
+]
