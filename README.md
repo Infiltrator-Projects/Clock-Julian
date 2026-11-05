@@ -49,5 +49,5 @@ Each package owns only this provider and its passive documentation. Its `Replace
 ## Installed documentation
 
 The package contains only the clock .so under /System/Resources/Clocks/
-and its illustrated PDF under /System/Resources/Documentation/Clock-Julian/.
+and its illustrated PDF under /System/Resources/Documentation/Clock-Julian.pdf.
 Source engineering records stay in GitHub and native evidence in dpkg.
