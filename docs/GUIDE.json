@@ -3,7 +3,7 @@
   "intro": "Julian Date (JD) is a continuous count of days and fractions of a day. Astronomers use it to compare observations without month or year boundaries.",
   "structure": "The integer part advances at UTC noon, not midnight. The fraction is a decimal portion of a 24-hour model day. Three displayed fractional digits resolve 86.4 ordinary seconds; five resolve 0.864 seconds.",
   "example": "At 00:00 UTC on 1 January 1970 the reading is JD 2440587.500; at noon it is JD 2440588.000. At 12:00 UTC on 1 January 2000 it is JD 2451545.000. The higher-precision mode displays five fractional digits.",
-  "history": "The Julian day-number convention is a chronological coordinate, not the Julian civil calendar. The noon boundary reflects the astronomical day convention.",
+  "history": "The Julian day-number convention is an astronomical chronological coordinate, not the Julian civil calendar.",
   "model": "Split Unix microseconds into floor-divided days and a nonnegative phase. Add the epoch day 2440587, advance the integer day when UTC phase reaches noon, and shift the fractional phase by half a day modulo one day. Floor the fraction at 1000 or 100000 ticks per day. Format the signed scaled value and schedule the next exact tick with upward millisecond rounding.",
   "limits": "The provider uses a Unix-based UTC-like uniform day coordinate, not a UT1, TT or TDB ephemeris conversion or leap-second table. Civil offset and geographical coordinates do not affect it. JD and MJD have distinct epoch and rollover conventions.",
   "sources": [
